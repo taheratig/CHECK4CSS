@@ -1,0 +1,9 @@
+body {
+  background-image: url("img/S35.jpg");
+  text-align: center;
+  font-size: 60px;
+  color: #1b1464;
+}
+body div {
+  margin: 280px 25px;
+}

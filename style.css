@@ -1,0 +1,126 @@
+* {
+  margin: 0 auto;
+}
+
+body header img {
+  background-image: ("img/img4.jpg");
+  background-repeat: repeat-x;
+  width: 1500px;
+  height: 300px;
+}
+
+body {
+  background-image: url("img/S35.jpg");
+  color: #000305;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.body {
+  margin: 0 auto;
+  width: 70%;
+  clear: both;
+}
+/* -------------------------------------MAINHEADER--------------------------------- */
+.mainheader img {
+  width: 100%;
+  margin-top: 5px;
+}
+.mainheader nav {
+  background-color: #2c3e50;
+  height: 50px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-family: roboto;
+}
+
+.mainheader nav ul {
+  text-align: right;
+  list-style: none;
+  margin: 0 auto;
+}
+.mainheader nav ul li {
+  display: inline;
+}
+.mainheader a:link {
+  color: white;
+  padding: 15px 50px;
+  display: inline-block;
+  height: 20px;
+}
+
+.mainheader a:hover {
+  color: white;
+  background-color: #e74c3c;
+}
+.mainheader ul li:active a {
+  color: blue;
+  background-color: #e74c3c;
+  clear: both;
+}
+
+/* --------------------------- MAIN CONTENT ---------------------------- */
+.mainContent {
+  width: 100%;
+  float: left;
+}
+.top-content {
+  background-color: #dcdde1;
+  padding: 4%;
+  margin-top: 2%;
+}
+
+.post-info {
+  font-size: 85%;
+  color: #487eb0;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.post-content {
+  display: block;
+}
+/* --------------------------- HTML5 ---------------------------- */
+.post-img {
+  width: 70%;
+  height: 250px;
+}
+figure {
+  margin: 25px 0;
+  font-size: 14px;
+  color: #192a56;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mark {
+  width: 50%;
+  margin-left: -5px;
+  margin-top: 15px;
+}
+/* --------------------------- FOOTER ---------------------------- */
+
+.footer {
+  float: left;
+  background-color: #2c3e50;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-family: roboto;
+  margin-top: 10px;
+}
+.footer p {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  width: 90%;
+}
